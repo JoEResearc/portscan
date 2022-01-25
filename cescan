@@ -1,0 +1,3 @@
+cd 
+cd /usr/share/portscan/
+python3 test.py "$@"
