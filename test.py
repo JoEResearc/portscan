@@ -5,8 +5,6 @@ from datetime import datetime
 import pyfiglet
 import socket
 
-ascii_banner = pyfiglet.figlet_format("CrowdEye scanner")
-print(ascii_banner)
 print("Tools v1.0 By SAM")
 if len(sys.argv) == 2:
 
