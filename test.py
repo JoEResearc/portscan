@@ -7,7 +7,7 @@ import socket
 
 ascii_banner = pyfiglet.figlet_format("CrowdEye scanner")
 print(ascii_banner)
-print("Tools v1.0 By Joe | Research")
+print("Tools v1.0 By SAM")
 if len(sys.argv) == 2:
 
     target = socket.gethostbyname(sys.argv[1])
